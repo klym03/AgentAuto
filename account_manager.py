@@ -1,9 +1,9 @@
 import os
 from telethon import TelegramClient, events
 from langchain_community.vectorstores import FAISS
-from langchain_google_genai import ChatGoogleGenerativeAI  # Переконайтеся, що цей клас існує
+from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain.chains import ConversationalRetrievalChain
-from langchain.memory import ConversationBufferMemory  # Використовуємо конкретну реалізацію
+from langchain.memory import ConversationBufferMemory
 from vector_store import create_vector_store
 from dotenv import load_dotenv
 

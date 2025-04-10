@@ -1,4 +1,4 @@
-# Python
+
 __pycache__/
 *.pyc
 *.pyo
@@ -7,35 +7,27 @@ __pycache__/
 pip-log.txt
 pip-delete-this-directory.txt
 
-# Віртуальне середовище
 venv/
 env/
 .env
 
-# Файли IDE
 .idea/
 .vscode/
 
-# Тимчасові файли
 *.log
 *.tmp
 *.bak
 
-# Великі файли моделей
 models/
 *.gguf
 *.bin
 
-# Локальні дані
 
-# Залежності, які завантажуються автоматично
 *.whl
 *.tar.gz
 *.zip
 
-# macOS
 .DS_Store
 
-# Інші
 *.swp
 *.swo

@@ -16,7 +16,6 @@ class SentenceTransformerEmbeddings(Embeddings):
 
 
 def create_vector_store(file_path):
-    # Читання даних
     with open(file_path, "r", encoding="utf-8") as f:
         text = f.read()
 
